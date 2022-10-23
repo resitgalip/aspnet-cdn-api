@@ -8,7 +8,7 @@ namespace AspNetCdnApi.Controllers
     public class GetImageController : Controller
     {
         [HttpGet("/{*path}"), DisableRequestSizeLimit]
-        public IActionResult GetPhotos(string path)
+        public IActionResult GetImage(string path)
         {
             try
             {

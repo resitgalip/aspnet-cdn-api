@@ -11,7 +11,7 @@ namespace AspNetCdnApi.Controllers
        
 
         [HttpPost]
-        public IActionResult UploadFile()
+        public IActionResult UploadImage()
         {
             try
             {
