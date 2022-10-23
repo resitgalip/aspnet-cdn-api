@@ -35,7 +35,7 @@ namespace AspNetCdnApi.Controllers
                 if (file.Length > 0 && !string.IsNullOrEmpty(site) && !string.IsNullOrEmpty(user_id))
                 {
 
-                    var fileName = ContentDispositionHeaderValue.Parse(file.ContentDisposition).FileName.Trim('"');
+                    var fileName = ContentDispositionHeaderValue.Parse(file.ContentDisposition)?.FileName?.Trim('"');
 
                     string uniqueFileName = Guid.NewGuid().ToString() + "_" + fileName;
 
@@ -53,7 +53,7 @@ namespace AspNetCdnApi.Controllers
                     var imagePath = siteUrl + site + "/" + user_id + "/" + uniqueFileName;
 
 
-                    string result = "";
+                   
                     try
                     {
                         System.Drawing.Image imgInput = System.Drawing.Image.FromFile(fullPath);
@@ -63,11 +63,11 @@ namespace AspNetCdnApi.Controllers
                         return Ok(new { imagePath });
 
                     }
-                    catch (Exception ex)
+                    catch
                     {
                         return BadRequest();
                     }
-                    return BadRequest();
+                  
                 }
                 else
                 {

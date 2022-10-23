@@ -10,7 +10,6 @@ C:\Users\Galip\source\repos\PublicProjects\aspnet-cdn-api\AspNetCdnApi\bin\Debug
 C:\Users\Galip\source\repos\PublicProjects\aspnet-cdn-api\AspNetCdnApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Galip\source\repos\PublicProjects\aspnet-cdn-api\AspNetCdnApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Galip\source\repos\PublicProjects\aspnet-cdn-api\AspNetCdnApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Galip\source\repos\PublicProjects\aspnet-cdn-api\AspNetCdnApi\obj\Debug\net6.0\AspNetCdnApi.csproj.AssemblyReference.cache
 C:\Users\Galip\source\repos\PublicProjects\aspnet-cdn-api\AspNetCdnApi\obj\Debug\net6.0\AspNetCdnApi.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Galip\source\repos\PublicProjects\aspnet-cdn-api\AspNetCdnApi\obj\Debug\net6.0\AspNetCdnApi.AssemblyInfoInputs.cache
 C:\Users\Galip\source\repos\PublicProjects\aspnet-cdn-api\AspNetCdnApi\obj\Debug\net6.0\AspNetCdnApi.AssemblyInfo.cs

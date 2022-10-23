@@ -65,14 +65,13 @@ namespace AspNetCdnApi.Controllers
                         string imageName = Regex.Replace(image, pattern, ".");
                         var pathToReadNew = Path.Combine(imageCacheFolderLocalPath, imageName);
                         var finalPath = "";
-                        if (!System.IO.File.Exists(pathToReadNew)) //görsel orjinal hali önceden kayıt edilmediyse orjinal url den indiriliyor.
+                        if (!System.IO.File.Exists(pathToReadNew)) 
                         {
                             if (!System.IO.File.Exists(imageCacheFolderLocalPath + "/" + imageName))
                             {
                                 var net = new System.Net.WebClient();
                                 string noCacheOriginalUrl = Regex.Replace(originalUrl, pattern, ".").Replace("image/cache", "image");
                                 net.DownloadFile(noCacheOriginalUrl, imageCacheFolderLocalPath + "/" + imageName);
-                                //return NotFound("image not found");
                             }
 
                             finalPath = imageCacheFolderLocalPath + "/" + imageName;
