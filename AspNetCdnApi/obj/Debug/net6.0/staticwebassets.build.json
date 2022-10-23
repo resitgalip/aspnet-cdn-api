@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tCA3vYAYp0V4yAPSFVNzEDfYbAS9OJL3xl/dyOJwwZI=",
+  "Source": "AspNetCdnApi",
+  "BasePath": "_content/AspNetCdnApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

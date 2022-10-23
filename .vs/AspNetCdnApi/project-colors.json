@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "39fcdbdd-8a14-4e07-afd6-88b5f8fd4171": {
+      "ProjectGuid": "39fcdbdd-8a14-4e07-afd6-88b5f8fd4171",
+      "DisplayName": "AspNetCdnApi",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
